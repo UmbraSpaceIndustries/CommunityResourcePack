@@ -31,7 +31,7 @@ BIOME_RESOURCE
  }
  PLANETARY_RESOURCE
  {
- 	ResourceName = CarbonDioxide
+ 	ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Vall
  	
@@ -46,75 +46,75 @@ BIOME_RESOURCE
  }
  PLANETARY_RESOURCE
  {
- 	ResourceName = CarbonDioxide
+ 	ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Tylo
  	
  	Distribution
  	{
  		PresenceChance = 20
- 		MinAbundance = .001
- 		MaxAbundance = 10
+ 		MinAbundance = .5
+ 		MaxAbundance = 15
  		Variance = 80
  		Dispersal = 3
  	}
  }
  PLANETARY_RESOURCE
  {
- 	ResourceName = CarbonDioxide
+ 	ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Bop
  	
  	Distribution
  	{
  		PresenceChance = 10
- 		MinAbundance = .001
- 		MaxAbundance = 5
+ 		MinAbundance = .1
+ 		MaxAbundance = 10
  		Variance = 80
  		Dispersal = 3
  	}
  }
  PLANETARY_RESOURCE
  {
- 	ResourceName = CarbonDioxide
+ 	ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Pol
  	
  	Distribution
  	{
  		PresenceChance = 10
- 		MinAbundance = .001
- 		MaxAbundance = 5
+ 		MinAbundance = .1
+ 		MaxAbundance = 10
  		Variance = 80
  		Dispersal = 3
  	}
  }
  PLANETARY_RESOURCE
  {
-  ResourceName = CarbonDioxide
+  ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Eeloo
  	
  	Distribution
  	{
  		PresenceChance = 50
- 		MinAbundance = .001
- 		MaxAbundance = 20
- 		Variance = 35
+ 		MinAbundance = .1
+ 		MaxAbundance = 35
+ 		Variance = 65
  		Dispersal = 3
  	}
  }
  PLANETARY_RESOURCE
  {
- 	ResourceName = CarbonDioxide
+ 	ResourceName = LqdCO2
  	ResourceType = 0
  	PlanetName = Minmus
  	
  	Distribution
  	{
- 		PresenceChance = 50
- 		MinAbundance = .001
- 		MaxAbundance = 10
+ 		PresenceChance = 80
+ 		MinAbundance = .1
+ 		MaxAbundance = 40
  		Variance = 35
  		Dispersal = 3
  	}
