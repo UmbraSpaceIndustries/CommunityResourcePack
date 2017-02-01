@@ -11,22 +11,6 @@
 //Express all numbers as percentages 0.0-100.0, not 0.0-1.0!
 //
 
-// By default the usual distribution of Regolith
-GLOBAL_RESOURCE
-{
-	ResourceName = Regolith
-	ResourceType = 0
-	
-	Distribution
-	{
-		PresenceChance = 100
-		MinAbundance = 10
-		MaxAbundance = 35
-		Variance = 10
-		Dispersal = 3
-	}
-}
-
 PLANETARY_RESOURCE
 {
 	ResourceName = Regolith
