@@ -1,0 +1,130 @@
+//
+//	
+//	Resource: Regolith (Solar Wind Enriched Regolith)
+//
+//Resource types:  
+//	0 = Crustal			(Stuff you dig up)
+//	1 = Oceanic			(Stuff in the oceans)
+//	2 = Atmospheric		(Stuff in the air, varies with pressure)
+//	3 = Interplanetary	(Stuff you find between planets)
+//
+//Express all numbers as percentages 0.0-100.0, not 0.0-1.0!
+//
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Mercury
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 7
+		MaxAbundance = 25
+		Variance = 9
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Moho
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 7
+		MaxAbundance = 25
+		Variance = 9
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Gilly
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 4
+		MaxAbundance = 8
+		Variance = 9
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Mun
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 3.5
+		MaxAbundance = 30
+		Variance = 9
+		Dispersal = 1
+	}
+}
+
+PLANETARY_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Minmus
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 3.5
+		MaxAbundance = 25
+		Variance = 9
+		Dispersal = 1
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Mun
+	BiomeName = Polar Crater
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 4
+		MaxAbundance = 34
+		Variance = 10
+		Dispersal = 3
+	}
+}
+
+BIOME_RESOURCE
+{
+	ResourceName = Regolith
+	ResourceType = 0
+	PlanetName = Mun
+	BiomeName = Highlands
+	
+	Distribution
+	{
+		PresenceChance = 100
+		MinAbundance = 25
+		MaxAbundance = 55
+		Variance = 10
+		Dispersal = 3
+	}
+}
+
+
+
+
