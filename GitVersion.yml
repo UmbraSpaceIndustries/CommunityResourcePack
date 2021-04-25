@@ -1,0 +1,12 @@
+mode: ContinuousDelivery
+branches:
+  develop:
+    increment: Patch
+    mode: ContinuousDelivery
+    regex: ^DEVELOP$
+    tag: bleeding-edge
+  main:
+    regex: ^master$
+ignore:
+  sha: []
+merge-message-formats: {}
