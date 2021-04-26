@@ -57,7 +57,6 @@ pipeline {
             $ReleaseFolder = "usi-releases"
             $ReleasePath = Join-Path -Path $DriveRoot -ChildPath $ReleaseFolder
             Write-Output "Releases folder location is: $ReleasePath"
-            New-Item -Path $DriveRoot -Name $ReleaseFolder -ItemType Directory -Force
             Write-Output "Determining artifact folder locations..."
             $CacheNames = $env:ARTIFACT_CACHES.Split(",")
             $CacheNames.ForEach({
