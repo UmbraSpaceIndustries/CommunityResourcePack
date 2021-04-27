@@ -87,7 +87,7 @@ pipeline {
           }
           New-Item -Path . -Name "artifacts" -ItemType Directory -Force
           Copy-Item -Path ./FOR_RELEASE/* -Destination ./artifacts -Recurse
-          Copy-Item -Path ./*.txt -Destination ./artifacts/GameData/CommunityResourcePack
+          Copy-Item -Path ./*.txt -Destination ./artifacts
         '''
         script {
           env.ARCHIVE_FILENAME = "CommunityResourcePack_${env.GITVERSION_SEMVER}.zip"
