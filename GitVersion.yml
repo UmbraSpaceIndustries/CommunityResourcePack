@@ -3,10 +3,10 @@ branches:
   develop:
     increment: Patch
     mode: ContinuousDelivery
-    regex: ^DEVELOP$
+    regex: ^main$
     tag: bleeding-edge
   main:
-    regex: ^master$
+    regex: ^release$
 ignore:
   sha: []
 merge-message-formats: {}

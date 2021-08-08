@@ -13,7 +13,7 @@ pipeline {
     }
     // Determine build & publish flags for branch
     stage("Setup bleeding edge environment") {
-      when { branch "DEVELOP" }
+      when { branch "main" }
       steps {
         script {
           env.ARTIFACT_CACHES = "bleeding-edge"
